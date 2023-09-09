@@ -41,21 +41,22 @@
 </Summary>
 <br>
 
-| Landing Page | Home Page   |
-| ------------ | ----------- |
-| ![landing]   | ![homepage] |
+| Landing Page      | Home Page   |
+| ----------------- | ----------- |
+| ![landing]        | ![homepage] |
 
-| Hotel Detail | Reward Section |
-| ------------ | -------------- |
-| ![hotel]     | ![reward]      |
+| Campground Detail |
+| ------------------| 
+| ![hotel]          | 
 
-| New Hotel Page | Edit Hotel Page |
-| -------------- | --------------- |
-| ![new]         | ![edit]         |
+| New Campground    | Edit Hotel Page |
+| Page              |                 |
+| ----------------- | --------------- |
+| ![new]            | ![edit]         |
 
-| Register Page | Login Page |
-| ------------- | ---------- |
-| ![register]   | ![login]   |
+| Register Page     | Login Page |
+| ----------------- | ---------- |
+| ![register]       | ![login]   |
 
 <br>
 </details>
