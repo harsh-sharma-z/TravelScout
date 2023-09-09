@@ -49,14 +49,13 @@
 | ------------------| 
 | ![hotel]          | 
 
-| New Campground    | Edit Hotel Page |
-| Page              |                 |
-| ----------------- | --------------- |
-| ![new]            | ![edit]         |
+| New Campground Page | Edit Hotel Page |
+| ------------------- | --------------- |
+| ![new]              | ![edit]         |
 
-| Register Page     | Login Page |
-| ----------------- | ---------- |
-| ![register]       | ![login]   |
+| Register Page | Login Page |
+| ------------- | ---------- |
+| ![register]   | ![login]   |
 
 <br>
 </details>
