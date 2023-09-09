@@ -12,10 +12,7 @@
 </picture>
 <br>
   
-### 🏨A hotel review website that allows users to find hotels and leave reviews📝 for them
-
-### 🔁In return user get rewarded 🪙 for their valuable reviews✅
-
+### 🏕️A campsite review website where you can find beautiful campsites and leave reviews📝 for others to check.
 ## ⚙️Dependencies Used
 
 ---
@@ -210,15 +207,15 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 
 <!----------------------------------{ Labels }--------------------------------->
 
-[views]: https://komarev.com/ghpvc/?username=TripHive&label=view%20counter&color=red&style=flat
-[repo-size]: https://img.shields.io/github/repo-size/Khushal-ag/TripHive
-[issues]: https://img.shields.io/github/issues-raw/Khushal-ag/TripHive
-[license]: https://img.shields.io/github/license/Khushal-ag/TripHive
-[forks]: https://img.shields.io/github/forks/Khushal-ag/TripHive?style=flat
-[stars]: https://img.shields.io/github/stars/Khushal-ag/TripHive
-[contributors]: https://contrib.rocks/image?repo=Khushal-ag/TripHive&max=500
-[contributors-graph]: https://github.com/Khushal-ag/TripHive/graphs/contributors
-[contrib-rocks]: https://contrib.rocks/preview?repo=Khushal-ag%2FTripHive
+[views]: https://komarev.com/ghpvc/?username=harsh-sharma-z&label=view%20counter&color=red&style=flat
+[repo-size]: https://img.shields.io/github/repo-size/harsh-sharma-z/TravelScout
+[issues]: https://img.shields.io/github/issues-raw/harsh-sharma-z/TravelScout
+[license]: https://img.shields.io/github/license/harsh-sharma-z/TravelScout
+[forks]: https://img.shields.io/github/forks/harsh-sharma-z/TravelScout?style=flat
+[stars]: https://img.shields.io/github/stars/harsh-sharma-z/TravelScout
+[contributors]: https://contrib.rocks/image?repo=harsh-sharma-z/TravelScout&max=500
+[contributors-graph]: https://github.com/harsh-sharma-z/TravelScout/graphs/contributors
+[contrib-rocks]: https://contrib.rocks/preview?repo=harsh-sharma-z%2FTravelScout
 
 <!-----------------------------{ Dependencies Used }---------------------------->
 
@@ -236,11 +233,11 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 
 <!----------------------------------{ Images }--------------------------------->
 
-[landing]: https://graph.org/file/17cea01409d517ec8614b.png
+<!-- [landing]: https://graph.org/file/17cea01409d517ec8614b.png
 [homepage]: https://graph.org/file/5496aa1234f629edb3d63.png
 [hotel]: https://graph.org/file/365f262d8114e8cd2432a.png
 [reward]: https://graph.org/file/8fd4d2cac55a7667a2759.png
 [login]: https://graph.org/file/55aa6c045848ddb1c19b9.png
 [register]: https://graph.org/file/b13e90c173d3db9a8e219.png
 [edit]: https://graph.org/file/bba7b693d62f775c91ce2.png
-[new]: https://graph.org/file/5d617077c9dfdbd6e268a.png
+[new]: https://graph.org/file/5d617077c9dfdbd6e268a.png -->
