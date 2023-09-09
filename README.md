@@ -49,9 +49,9 @@
 | ------------------| 
 | ![hotel]          | 
 
-| New Campground Page | Edit Hotel Page |
-| ------------------- | --------------- |
-| ![new]              | ![edit]         |
+| New Campground Page | Edit Campground Page |
+| ------------------- | -------------------- |
+| ![new]              | ![edit]              |
 
 | Register Page | Login Page |
 | ------------- | ---------- |
