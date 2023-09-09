@@ -29,6 +29,10 @@ const seedDB = async() =>{
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, molestiae qui id repudiandae ipsa alias magni reiciendis fugit officia ut, pariatur atque quos quae at voluptate illo tenetur facere quaerat suscipit placeat! Eligendi consectetur delectus itaque quod amet necessitatibus repudiandae.',
             price,
+            geometry: { 
+              type: 'Point', 
+              coordinates: [ 77.465069, 27.494145 ] 
+            },
             images:[
                 {
                   url: 'https://res.cloudinary.com/djlealtyj/image/upload/v1694243835/TravelScout/gv1awmfozvezsyzzh0zb.jpg',
