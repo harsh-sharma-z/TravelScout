@@ -5,8 +5,19 @@ const geocoder = mbxGeocoding({accessToken: mapBoxToken});
 const {cloudinary} = require('../cloudinary');
 
 module.exports.index = async(req , res) =>{
-    const campgrounds = await(Campground.find({}));
-    res.render('campgrounds/index' , {campgrounds});
+    let nomatch = null;
+    if(req.query.search){
+        const regex = new RegExp(escapeRegex(req.query.search), 'gi');
+        const campgrounds = await Campground.find({ title: regex }).sort({ title: 1 })
+        if (campgrounds.length < 1) {
+            nomatch = "No Hotels match that query, please try again."
+        }
+        res.render('campgrounds/index', { campgrounds: campgrounds , nomatch: nomatch });
+    }
+    else{
+        const campgrounds = await(Campground.find({}));
+        res.render('campgrounds/index' , {campgrounds: campgrounds , nomatch: nomatch});
+    }
 }
 
 module.exports.renderNewForm = (req , res) =>{
@@ -24,7 +35,7 @@ module.exports.createCampground = async(req , res) => {
     campground.images = req.files.map(f => ({url: f.path , filename: f.filename}));
     campground.author = req.user._id ;
     await campground.save();
-    console.log(campground)
+    // console.log(campground)
     req.flash('success' , 'Successfully made a new campground!');
     res.redirect(`campgrounds/${campground._id}`)
 }
@@ -80,3 +91,7 @@ module.exports.deleteCampground = async(req , res) =>{
     req.flash('success' , 'The campground has been deleted!')
     res.redirect('/campgrounds');
 }
+
+function escapeRegex(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};

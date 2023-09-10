@@ -1,7 +1,41 @@
 <% layout('layouts/boilerplate') %>
-<div id="cluster-map"></div>
-
-<h2 class="my-3">All Campgrounds</h2>
+<div class="shadow-md">
+    <div id="cluster-map" class="mb-3"></div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <h2 class="my-3">All Campgrounds</h2>
+    </div>
+    <div class="col-6">
+        <div class="d-flex justify-content-end my-3 ">
+            <form action="/campgrounds" method="get">
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="search"
+                  class="form-control-sm"
+                  placeholder="Search for campgrounds"
+                  aria-label="Search for campgrounds"
+                  aria-describedby="button-addon2"
+                />
+                <button class="btn btn-sm btn-outline-success" type="submit" id="button-addon2">
+                  <i class="fa fa-search" aria-hidden="true" style="font-size: 22px;"></i>
+                  <span class="h5" style="font-size: 1.15rem;">Search</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+          <% if(nomatch !== null) {%>
+          <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">No Match Found!</h4>
+            <p>Sorry, we couldn't find any hotels matching your search.</p>
+            <hr />
+            <p class="mb-0">Please try again with some different keywords.</p>
+          </div>
+          <% } else {%>
+    
+</div>
 
 
 <% for(let campground of campgrounds){ %>
@@ -29,6 +63,7 @@
         </div>
     </div>
     
+<% } %>
 <% } %>
 
 <script>
