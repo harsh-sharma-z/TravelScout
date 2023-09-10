@@ -172,7 +172,7 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [sanitize-html]: https://www.npmjs.com/package/sanitize-html
 [express-mongo-sanitize]: https://www.npmjs.com/package/express-mongo-sanitize
 
---------------------------------{ Images }--------------------------------->
+<!--------------------------------{ Images }--------------------------------->
 
 [landing]: https://graph.org/file/2b8ce745721ed04551b70.png
 [homepage]: https://graph.org/file/d547cc114374bdd3a579a.png
