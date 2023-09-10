@@ -41,9 +41,9 @@
 </Summary>
 <br>
 
-| Landing Page      | Home Page   |
-| ----------------- | ----------- |
-| ![landing]        | ![homepage] |
+| Landing/Home Page      | Campgrounds Page   |
+| ---------------------  | -----------------  |
+| ![landing]             | ![homepage]        |
 
 | Campground Detail |
 | ------------------| 
