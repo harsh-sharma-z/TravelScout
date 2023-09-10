@@ -17,9 +17,11 @@ const flash = require('connect-flash');
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
+const mongoSanitize = require('express-mongo-sanitize');
+// const helmet = require('helmet');
+const url = process.env.MONGO_URL || 'mongodb://localhost:27017/travel-scout';
 
-
-mongoose.connect('mongodb://localhost:27017/travel-scout' , {
+mongoose.connect(url , {
     useNewUrlParser: true,
     //useCreateIndex: true, 
     useUnifiedTopology: true,
@@ -35,11 +37,13 @@ db.once("open" , () => {
 
 
 const sessionConfig = {
+    name:'harsh',
     secret : 'thisshouldbeabettersecret',
     resave: false,
     saveUninitialized: true,
     cookie : {
         httpOnly: true,
+        // secure: true,
         expires : Date.now() + (1000 * 60 * 60 * 24 * 7), // a week
         maxAge: 1000 * 60 * 60 * 24 * 7,
     }
@@ -55,9 +59,12 @@ app.use(express.static(path.join(__dirname , 'public')))
 
 app.use(session(sessionConfig));
 app.use(flash());
+// app.use(helmet({contentSecurityPolicy: false}));
 
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(mongoSanitize());
+
 
 passport.use(new LocalStrategy(User.authenticate()));
 
