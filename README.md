@@ -47,15 +47,15 @@
 
 | Campground Detail |
 | ------------------| 
-| ![hotel]          | 
+| ![campgrounds]    | 
 
 | New Campground Page | Edit Campground Page |
 | ------------------- | -------------------- |
 | ![new]              | ![edit]              |
 
-| Register Page | Login Page |
+| SignUp Page   | Login Page |
 | ------------- | ---------- |
-| ![register]   | ![login]   |
+| ![signup]     | ![login]   |
 
 <br>
 </details>
@@ -172,13 +172,12 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [sanitize-html]: https://www.npmjs.com/package/sanitize-html
 [express-mongo-sanitize]: https://www.npmjs.com/package/express-mongo-sanitize
 
-<!----------------------------------{ Images }--------------------------------->
+--------------------------------{ Images }--------------------------------->
 
-<!-- [landing]: https://graph.org/file/17cea01409d517ec8614b.png
-[homepage]: https://graph.org/file/5496aa1234f629edb3d63.png
-[hotel]: https://graph.org/file/365f262d8114e8cd2432a.png
-[reward]: https://graph.org/file/8fd4d2cac55a7667a2759.png
-[login]: https://graph.org/file/55aa6c045848ddb1c19b9.png
-[register]: https://graph.org/file/b13e90c173d3db9a8e219.png
-[edit]: https://graph.org/file/bba7b693d62f775c91ce2.png
-[new]: https://graph.org/file/5d617077c9dfdbd6e268a.png -->
+[landing]: https://graph.org/file/2b8ce745721ed04551b70.png
+[homepage]: https://graph.org/file/d547cc114374bdd3a579a.png
+[campgrounds]: https://graph.org/file/8aeecf28a625742e67c61.png
+[login]: https://graph.org/file/1d5ccb389cd223707e51b.png
+[signup]: https://graph.org/file/8b4053b901caeb4411fe0.png
+[edit]: https://graph.org/file/6245b465ed289deefd1eb.png
+[new]: https://graph.org/file/eb1ac72e5848f167f8d39.png
